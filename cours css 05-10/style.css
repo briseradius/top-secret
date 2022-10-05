@@ -1,0 +1,97 @@
+.space01 {
+/*margin 3px 2px = 3px vertical 2px horizontal
+   margin 3px 2px 1px = 3px haut 2px horizontale 1pxbas*/
+   margin: 0px 10px; 
+   color: red;
+}
+.space02 {
+    border: 2px solid black;
+    padding: 1px;
+    
+}
+p {
+    line-height: 40px;
+}
+/* pour retrouvér la valeur initiale  utiliser l'option "initial"*/
+.space03 {
+    margin: 2.5em;
+}
+.space04 {
+    text-indent: 3em;
+}
+.color-red{
+    color: red;
+}
+.text-center{
+    text-align: center;
+}
+.carre{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.rect {
+    background-color: blue;
+    height: 50px;
+    width: 10%;
+  
+}
+
+.divmotherwidth{
+    width: 50%;
+    border: solid black;
+    
+}
+.margin-div{
+    margin-top: 10px;
+}
+.rectviewport{
+    background-color: orange;
+    height: 50px;
+    width: 75vw;
+}
+.b-radius{
+
+    border-radius: 25%;
+}
+.b-circle{
+    border-radius: 50%;
+}
+.carre-abs{
+    position: absolute ;top: 280px; right: 500px; 
+}
+.mother-rel {
+   border: 1px black solid;
+    height: 100px;
+   /* position: relative;*/
+}
+.circle-rel{
+    position: relative;
+    bottom: 10px;
+    right: -500px;
+}
+.circle-rel02{
+    position: relative;
+    left: calc(50% - 25px);
+}
+.menu{
+    border: 1px solid black;
+    color: rgb(248, 18, 18);
+    background-color: blueviolet;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+.deep {
+    z-index: -1;
+
+}
+.transform-carre-translation{
+    transform: translate(10px);
+}
+.transform-carre-rotation { 
+    background-color: brown;
+
+    transform: rotate(35deg);
+
+}

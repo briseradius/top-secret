@@ -1,0 +1,91 @@
+body
+{
+    background-color: bisque;
+}
+
+.margin 
+{
+margin-top: 10px;
+
+}
+.recrouge
+{
+    width: 50%;
+    height: 30px;
+    background-color: red;
+    border: solid red;
+}
+.pticarre{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+h1{
+    text-align: center;
+}
+.ovalebleu{
+    height: 50px;
+    width: 75%;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+.recvert{
+    height: 50px;
+    width: 15%;
+    background-color: greenyellow;
+}
+ .recnoir{
+    height: 50px;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 5px;
+ }
+.recmarron 
+{
+    height: 50px;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: maroon;
+    border-top-right-radius: 20%;
+
+}
+.text{
+
+margin: 2em;
+text-decoration: wavy red;
+}
+.merecarre
+{
+height: 50px;
+width: auto;
+display: inline-block;
+margin-left: calc(50% - 80px);
+}
+.input{
+    text-align: center;
+}
+.titre {
+    color: red;
+}
+.pl{
+    color: red;
+    font-size: large;
+}
+.fleche{
+    transform: rotate(45deg);
+    font-size: 4em;
+    margin-left: 80%;
+    margin-top: 15%;
+}
+.fleche::after{
+    content: ">";
+    
+}
