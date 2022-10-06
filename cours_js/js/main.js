@@ -226,3 +226,4 @@ mySecondArray.splice(1,1);
 console.log(mySecondArray)
 let banane = 'une banane'
 console.log(banane[5])
+console.log
