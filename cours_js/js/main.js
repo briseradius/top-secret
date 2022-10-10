@@ -226,7 +226,7 @@ mySecondArray.splice(1,1);
 console.log(mySecondArray)
 let banane = 'une banane'
 console.log(banane[5])
-<<<<<<< HEAD
+HEAD
 
 var voiture = {
     marque: "renault",
@@ -325,6 +325,5 @@ function concatTableau(arrayA, arrayB)
   }
 }
 concatTableau(tableauA, tableauB)
-=======
+
 console.log
->>>>>>> 7f175715527e2a1e8f39854e1f6858d4016e0b34
