@@ -1,0 +1,22 @@
+#paul{
+    text-decoration: underline #000000;
+    text-align: center;
+}
+
+#ajax{
+    text-align: center;
+}
+
+#send{
+    background-color: #5D005D;
+    color: #FFFFFF;
+    margin-top: 2em;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.width{
+    width: 30%;
+}
