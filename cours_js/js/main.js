@@ -226,4 +226,104 @@ mySecondArray.splice(1,1);
 console.log(mySecondArray)
 let banane = 'une banane'
 console.log(banane[5])
+HEAD
+
+var voiture = {
+    marque: "renault",
+    année: "2005",
+    puissance: 125,
+
+    afficher: function() {
+        console.log("cette voiture est une " + this.marque + ",de l'année " + this.année + "d'une puissance de" + this.puissance)
+    },
+};
+voiture.afficher()
+console.log(voiture.marque);
+
+//les boucles
+var iteration = 0;
+while (iteration<7){
+    console.log(iteration);
+    iteration++;
+};
+// la boucle for
+for (let i = 0; i <= 12; i++) {
+    console.log(i);
+    
+};
+for (let j = 0; j < mySecondArray.length; j++){
+	console.log(mySecondArray[j]);
+};
+//la dowhile
+let dowil = 0;
+do {
+     dowil ++ 
+    console.log(dowil)
+} while (dowil<=40);
+
+iterationBreak = 0;
+
+while(iterationBreak < 80)
+{
+    console.log(iterationBreak)
+	iterationBreak++;
+  if( iterationBreak > 47)
+  {
+  	break;
+  }
+};
+
+
+function facteur(it){
+    var fact = 1;
+
+    for(var i = 1; i <= it; i++)  
+    {   
+      fact = fact * i;   
+    }  
+    console.log(fact)
+}
+
+facteur(7)
+
+function factor(nbr)
+{
+  if(nbr === 0)
+  {
+		return 1;
+  }
+  return nbr * factor(nbr - 1);
+}
+
+console.log(factor(7))
+ 
+
+// function tab()
+// {
+//     var tableauA = ['Jeannette', 'Alphonse', 'George', 'Ludwig'];
+//     var tableauB = ['Paul', 'Frédéric', 'Jacques', 'Roger'];
+//     var tableauC = tableauA[0] co tableauB[0]
+
+//     console.log(tableauC)
+// }
+//  tab
+ var tableauA = ['Jeannette', 'Alphonse', 'George', 'Ludwig'];
+var tableauB = ['Paul', 'Frédéric', 'Jacques', 'Roger'];
+
+function concatTableau(arrayA, arrayB)
+{
+	if(arrayA.length === arrayB.length)
+  {
+  	for(let index = 0; index < arrayB.length; index++)
+    {
+    	console.log(arrayA[index] + ' ' + arrayB[index])
+    }
+  }
+  else
+  {
+  	console.log("Les tableaux n'ont pas la même taille.")
+  }
+}
+concatTableau(tableauA, tableauB)
+
 console.log
