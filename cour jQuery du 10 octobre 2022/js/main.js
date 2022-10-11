@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $(".title").html("Coucou");
+
+    let coucou = 'coucou'
+    $(".title").html(coucou);
     $(".paragraph").html("Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione inventore odit eos quidem architecto incidunt fugit praesentium, voluptate quia porro nesciunt asperiores, sunt fuga dignissimos sed itaque! Aliquam, natus modi!");
     $("p:last").css("color", "red");
     $("p:last").css({"color": "red", "background-color": "cyan"});
